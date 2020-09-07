@@ -11,12 +11,16 @@ import PrivacyPage from "./pages/miscellanous/privacypage";
 import "./App.css";
 
 const theme = createMuiTheme({
+
+
   typography: {
     fontFamily: "Nunito, sans-serif",
   },
   palette: {
-    type: "light",
+    type : "light",
+  
   },
+
 });
 
 class App extends Component {
