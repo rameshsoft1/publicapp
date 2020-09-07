@@ -1,0 +1,29 @@
+.login-Container {
+  height: 100vh;
+  position: relative;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(145deg, #fff 50%, #8e2de2 50%);
+}
+
+.login-Container h2 {
+  font-size: 3rem;
+  margin: 0rem 2rem;
+  width: 100%;
+  color: #fcfcfc;
+  line-height: 1;
+  text-shadow: 5px 5px #5514b4, 10px 10px #5514b4;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+.login-Container .img-Container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.login-Container .img-Container img {
+  width: 40%;
+  position: fixed;
+  bottom: calc(100vh - 85%);
+}

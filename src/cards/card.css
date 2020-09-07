@@ -1,0 +1,204 @@
+.birthdaycard {
+  background-color: #ff645e !important;
+  color: #fff !important;
+  /*background: radial-gradient(circle at 20% 20%,#ff746e 25%,#ff645e 100%) !important;*/
+}
+
+.anniversarycard {
+  background-color: #0062ff !important;
+  color: #fff !important;
+  /*  background: radial-gradient(circle at 20% 20%,#5183f5 25%,#4640ff 100%) !important;*/
+}
+
+.card-body {
+  padding: 8px;
+}
+
+.card-body .birthday-avatar {
+  position: relative;
+  width: 45px;
+  /*margin: 0 auto 8px;*/
+  margin: 0 0 8px;
+}
+
+.card-body .birthday-avatar img {
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.card-body .work-avatar {
+  position: relative;
+  width: 45px;
+  margin: 0 auto 8px;
+}
+
+.card-body .work-avatar img {
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.card-body .card-content {
+  text-align: center;
+  color: #fff;
+}
+
+.card-body .card-content span {
+  display: block;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.card-body .card-content h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: left;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.card-body .card-content h4 {
+  font-weight: 600;
+}
+
+.card-body .card-content p {
+  font-size: 0.9rem;
+}
+
+.MuiCardActions-root {
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+.cardBtn {
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.cardBtn:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+/**** LIST CARD STYLE ****/
+
+.add-friend-listWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 0.8rem;
+  margin: 0.8rem 0;
+}
+
+.add-friend-listWrapper:first-child {
+  margin: 0 0 0.8rem;
+}
+.add-friend-listWrapper:last-child {
+  border-bottom: none;
+  margin: 0;
+}
+
+.add-friend-listWrapper img {
+  height: 40px;
+  width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+
+.add-friend-name-list {
+  padding: 0 10px;
+  line-height: 1.3;
+  transition: all 0.3s linear 0s;
+}
+.add-friend-name-list span {
+  font-size: 0.85rem;
+  color: #393a4f;
+  font-weight: 500;
+  display: block;
+}
+
+.add-friend-name-list span:last-child {
+  font-size: 0.7rem;
+  color: #757a91;
+}
+
+.add-friend-btn {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;*/
+  width: 36px;
+  height: 36px;
+  margin-left: auto;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hideList {
+  transition: all 0.3s ease-out;
+  display: none;
+}
+
+.activitylist {
+  padding: 0 10px;
+  line-height: 1.3;
+}
+
+.activitylist label {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #761fc1;
+}
+
+.activitylist span {
+  font-weight: 500;
+  display: block;
+  font-size: 0.8rem;
+  color: #a8abb5;
+}
+
+/**** Followers Card ****/
+.followersWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.followersWrap .follower {
+  width: 64px;
+  height: 64px;
+  margin: 2px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  background: transparent;
+}
+
+.followersWrap .follower img {
+  display: block;
+  border-radius: 6px;
+  width: 62px;
+  height: 62px;
+  max-width: 100%;
+  border: 4px solid #fff;
+  box-shadow: 0px 1px 4px #e5e5e5;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.followersWrap .follower img:hover {
+  transform: scale(1.1);
+}
+
+.followersWrap .follower:focus {
+  border-color: transparent;
+}

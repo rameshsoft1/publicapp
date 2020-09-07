@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  /* background: whitesmoke;*/
+  background: #fafafb;
+}
+
+::selection {
+  background: #761fc1;
+  color: #fff;
+}
+
+/***** OverRiding Css *****/
+.MuiPaper-elevation1 {
+  box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1) !important;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: none !important;
+}
+
+.MuiCardActions-root {
+  margin-bottom: 0rem !important;
+}

@@ -1,0 +1,115 @@
+img {
+  width: 100%;
+}
+img.icons {
+  width: 20px;
+}
+li {
+  list-style: none;
+  text-align: center;
+  width: auto;
+  padding: 10px;
+  border-right: 1px solid #e5e6e6;
+}
+a {
+  text-decoration: none;
+  color: rgb(101, 51, 153);
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.section-2 {
+  margin-top: -154px;
+}
+.section-3 {
+  border: 1px solid #e5e6e6;
+  margin-top: -38px;
+}
+.profilePic {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.white-text {
+  color: #fff;
+  text-rendering: optimizelegibility;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.profileName {
+  font-size: 20px;
+}
+.info-pane {
+  background-color: #d2d2d2;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #4b4f56;
+  transition: 200ms cubic-bezier(0.08, 0.52, 0.52, 1) background-color,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) box-shadow,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) transform;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+}
+.info-pane a {
+  color: #4b4f56;
+  font-weight: normal;
+}
+.notifyNum {
+  color: #fff;
+  background-color: #ff5419;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.count-frineds {
+  color: #89919c;
+  font-size: 12px;
+}
+.iconTxtInline > * {
+  display: inline-block;
+}
+.iconTxtInline {
+  display: flex;
+  align-item: center;
+}
+
+.shortIntro ul li {
+  border: 0;
+
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+.iconTxtInline > img {
+  margin-right: 5px;
+}
+.addBio {
+  padding: 20px;
+}
+.addBio > * {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid #e5e6e6;
+  display: table;
+  margin-top: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+/*Create Post*/
+.MuiTab-textColorInherit {
+  background-color: rgb(101, 51, 153) !important;
+}
+.post-header > div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.post-header .profileIcon {
+  width: 50px;
+}

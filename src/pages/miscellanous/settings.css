@@ -1,0 +1,15 @@
+.MuiFilledInput-root {
+  background-color: transparent !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.MuiFilledInput-underline:before,
+.MuiFilledInput-underline:after {
+  border-bottom: 1px solid transparent !important;
+}
+
+.MuiFilledInput-underline:hover:before,
+.MuiFilledInput-underline:hover:after {
+  border-bottom: 1px solid transparent !important;
+}
