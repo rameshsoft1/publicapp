@@ -24,6 +24,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
+        <h2>learn react</h2>
           <Router>
             <Switch>
               <Route path="/" exact component={LoginPage} />
